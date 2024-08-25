@@ -13,7 +13,7 @@ class MultiLatentComposite:
     RETURN_TYPES = ("LATENT",)
     FUNCTION = "composite"
 
-    CATEGORY = "Davemane42"
+    CATEGORY = "ib2k24"
 
     def composite(self, samples_to, extra_pnginfo, unique_id, **kwargs):
 

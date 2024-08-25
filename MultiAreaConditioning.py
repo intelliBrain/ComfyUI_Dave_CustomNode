@@ -1,4 +1,4 @@
-# Made by Davemane42#0042 for ComfyUI
+# Made by ib2k24#0042 for ComfyUI
 # 02/04/2023
 
 import torch
@@ -23,7 +23,7 @@ class MultiAreaConditioning:
     RETURN_TYPES = ("CONDITIONING", "INT", "INT")
     RETURN_NAMES = (None, "resolutionX", "resolutionY")
     FUNCTION = "doStuff"
-    CATEGORY = "Davemane42"
+    CATEGORY = "ib2k24"
 
     def doStuff(self, extra_pnginfo, unique_id, **kwargs):
 
@@ -89,7 +89,7 @@ class ConditioningUpscale():
         }
     
     RETURN_TYPES = ("CONDITIONING",)
-    CATEGORY = "Davemane42"
+    CATEGORY = "ib2k24"
 
     FUNCTION = 'upscale'
 
@@ -124,7 +124,7 @@ class ConditioningStretch():
         }
     
     RETURN_TYPES = ("CONDITIONING",)
-    CATEGORY = "Davemane42"
+    CATEGORY = "ib2k24"
 
     FUNCTION = 'upscale'
 
@@ -167,7 +167,7 @@ class ConditioningDebug():
 
     OUTPUT_NODE = True
 
-    CATEGORY = "Davemane42"
+    CATEGORY = "ib2k24"
 
     def debug(self, conditioning):
         print("\nDebug")

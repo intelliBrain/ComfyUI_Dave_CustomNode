@@ -1,4 +1,4 @@
-# Made by Davemane42#0042 for ComfyUI
+# Made by ib2k24#0042 for ComfyUI
 import os
 import subprocess
 import importlib.util
@@ -11,11 +11,11 @@ import __main__
 python = sys.executable
 
 
-extentions_folder = os.path.join(os.path.dirname(os.path.realpath(__main__.__file__)), "web\extensions\Davemane42")
+extentions_folder = os.path.join(os.path.dirname(os.path.realpath(__main__.__file__)), "web\extensions\ib2k24")
 javascript_folder = os.path.join(os.path.dirname(os.path.realpath(__file__)), "javascript")
 
 if not os.path.exists(extentions_folder):
-    print('Making the "web\extensions\Davemane42" folder')
+    print('Making the "web\extensions\ib2k24" folder')
     os.mkdir(extentions_folder)
 
 result = filecmp.dircmp(javascript_folder, extentions_folder)
@@ -68,4 +68,4 @@ NODE_CLASS_MAPPINGS = {
     #"ABGRemover": ABGRemover,
 }
 
-print('\033[34mDavemane42 Custom Nodes: \033[92mLoaded\033[0m')
+print('\033[34mib2k24 Custom Nodes: \033[92mLoaded\033[0m')
